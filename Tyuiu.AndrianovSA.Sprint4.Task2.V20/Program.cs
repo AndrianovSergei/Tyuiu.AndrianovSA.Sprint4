@@ -30,7 +30,6 @@ namespace Tyuiu.AndrianovSA.Sprint4.Task2.V20
             int len = 16;
             int[] numsArray = new int[len];
 
-            // Заполнение массива случайными числами от 2 до 7 (включительно)
             for (int i = 0; i <= len - 1; i++)
             {
                 numsArray[i] = rnd.Next(2, 8);
